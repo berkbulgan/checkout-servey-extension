@@ -11,14 +11,14 @@ import {
 
 import { useState } from "react";
 
-// export default reactExtension(
-//   'purchase.thank-you.block.render',
-//   () => <Extension />,
-// );
+export default reactExtension(
+  'purchase.thank-you.block.render',
+  () => <Extension />,
+);
 
-export default reactExtension("purchase.checkout.block.render", () => (
-  <Extension />
-));
+// export default reactExtension("purchase.checkout.block.render", () => (
+//   <Extension />
+// ));
 
 function Loading() {
   return <Heading>Submitting feedback...</Heading>;
