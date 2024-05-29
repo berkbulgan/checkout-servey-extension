@@ -19558,7 +19558,10 @@ ${errorInfo.componentStack}`);
   // extensions/checkout-ui/src/Checkout.tsx
   var import_react16 = __toESM(require_react());
   var import_jsx_runtime4 = __toESM(require_jsx_runtime());
-  var Checkout_default = reactExtension("purchase.checkout.block.render", () => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Extension, {}));
+  var Checkout_default = reactExtension(
+    "purchase.thank-you.block.render",
+    () => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Extension, {})
+  );
   function Loading() {
     return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Heading2, { children: "Submitting feedback..." });
   }
